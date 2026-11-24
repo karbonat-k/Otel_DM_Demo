@@ -1,0 +1,19 @@
+{
+  "schema": "transport-lite-v1",
+  "routes": {
+    "mersin-kizkalesi": {
+      "name": "Mersin Merkez / Otogar ↔ Kızkalesi Sahil Dolmuşları",
+      "frequency": "06:30 - 22:30 arası her 20 dakikada bir",
+      "stop_note": "Otelin 100 m önündeki Akdeniz Sahil Bulvarı durağında indirir."
+    },
+    "silifke-kizkalesi": {
+      "name": "Silifke ↔ Kızkalesi Minibüsleri",
+      "frequency": "07:00 - 21:30 arası her 20 dakikada bir"
+    },
+    "havas-cukurova": {
+      "name": "Çukurova Havalimanı (COV) ↔ Mersin HAVAŞ + Kızkalesi Aktarma",
+      "note": "Uçuş saatlerine göre Mersin Forum/Otogar'a gelir; oradan Kızkalesi dolmuşuna geçilir. Doğrudan ulaşım için otelin 2.800 TL'lik VIP transferi tercih edilebilir."
+    }
+  }
+}
+

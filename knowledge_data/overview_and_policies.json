@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "hotel": "Korykos Boutique Hotel & Beach",
+    "version": "2026-demo-v1",
+    "lang": "tr",
+    "last_updated": "2026-11-13"
+  },
+  "policy_core": {
+    "marriage_required": false,
+    "unmarried_couples_allowed": true,
+    "note": "Tesisimizde konaklama için evlilik cüzdanı şartı bulunmamaktadır; çiftler, arkadaş grupları ve aileler rahatlıkla konaklayabilir. Girişte tüm misafirlerin resmi kimlik veya pasaport ibrazı zorunludur."
+  },
+  "data": {
+    "category": "Denize Sıfır Butik Otel",
+    "stars_equivalent": "4 Yıldız Standartlarında Butik Otel",
+    "concept": "Oda + Kahvaltı (BB) veya Yarım Pansiyon (HB - Kahvaltı + Akşam Yemeği)",
+    "concept_note": "Tüm konaklamalarda serpme/açık büfe Akdeniz kahvaltısı fiyata dahildir. Misafirlerimiz dilerse akşam yemeği dahil Yarım Pansiyon seçeneğini tercih edebilir. Her iki konseptin güncel fiyatları fiyat sorgusundan (get_price) görülür.",
+    "opening_year": 2021,
+    "season": "12 ay açık",
+    "total_rooms": 30,
+    "address": "Kızkalesi Mah. Akdeniz Sahil Bulvarı No:42, Erdemli / Mersin",
+    "city": "Mersin",
+    "region": "Çukurova / Kızkalesi",
+    "phone": "+90 324 523 00 42",
+    "whatsapp": "+90 532 000 33 42",
+    "email": "info@korykoshotel.com",
+    "website": "www.korykoshotel.com",
+    "check_in_time": "14:00",
+    "check_out_time": "12:00",
+    "early_checkin_late_checkout": "Müsaitlik durumuna göre ücretsiz erken giriş veya geç çıkış imkânı sağlanır; garanti edilmesi istenirse yarım günlük ücret uygulanır.",
+    "payment_options": [
+      "Nakit (TL, EUR, USD)",
+      "Kredi Kartı (Visa, Mastercard, Troy)",
+      "Havale / EFT"
+    ],
+    "installment_options": {
+      "interest_free_3_installments": [
+        "Garanti Bonus",
+        "İş Bankası Maximum",
+        "Yapı Kredi World",
+        "Ziraat Bankkart"
+      ],
+      "note": "Anlaşmalı banka kredi kartlarına vade farksız 3 taksit imkânı mevcuttur."
+    },
+    "cancellation_policy": "Giriş tarihine 7 gün kalaya kadar yapılan iptallerde %100 ücretsiz iade yapılır. 7 günden az kalan iptallerde ilk gece ücreti kesilir veya tarih değişikliği hakkı tanınır.",
+    "policies": {
+      "alkol": "Tesisimizin teras restoranında ve plaj barında alkollü ve alkolsüz içecek servisi mevcuttur.",
+      "pets_allowed": true,
+      "pets_note": "Bahçe katı odalarımızda 10 kg'a kadar evcil hayvan (kedi/köpek) kabul edilmektedir. Günlük 350 TL ek temizlik ücreti uygulanır; rezervasyon sırasında bilgi verilmesi rica olunur.",
+      "smoking_indoor": "Kapalı alanlarda ve oda içlerinde sigara içilmez; tüm odalarımızın balkon veya terasında sigara içilebilir.",
+      "parking": "Otel misafirlerine özel ücretsiz açık otopark ve 1 adet elektrikli araç şarj istasyonu (AC 22 kW) mevcuttur.",
+      "wifi": "Tüm odalarda, bahçede ve plaj alanında ücretsiz yüksek hızlı fiber Wi-Fi mevcuttur."
+    }
+  },
+  "faq": [
+    {
+      "q": "Evlilik cüzdanı şartı var mı?",
+      "a": "Hayır, otelimizde evlilik cüzdanı şartı bulunmamaktadır. Girişte tüm misafirlerin kimlik veya pasaport göstermesi yeterlidir."
+    },
+    {
+      "q": "Giriş ve çıkış saatleri nedir?",
+      "a": "Giriş (check-in) saatimiz 14:00, çıkış (check-out) saatimiz 12:00'dir."
+    },
+    {
+      "q": "Evcil hayvan kabul ediyor musunuz?",
+      "a": "Evet, bahçe katı odalarımızda 10 kg'a kadar evcil dostlarımızı günlük 350 TL ek temizlik ücretiyle ağırlıyoruz."
+    },
+    {
+      "q": "Otopark ve Wi-Fi ücretli mi?",
+      "a": "Hayır, hem açık otoparkımız hem de tüm tesiste yüksek hızlı Wi-Fi tamamen ücretsizdir."
+    },
+    {
+      "q": "İptal koşulları nedir?",
+      "a": "Girişe 7 gün kalaya kadar yapılan iptallerde kesintisiz tam iade yapıyoruz. Daha yakın tarihlerde ise ücretsiz tarih değişikliği konusunda yardımcı oluyoruz."
+    }
+  ]
+}
+

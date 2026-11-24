@@ -1,0 +1,13 @@
+{
+  "ad": "Otel DM Demo Botu (Korykos)",
+  "kategori": "Müşteri Botu",
+  "sahip": "chat-asistan",
+  "sinif": "urun",
+  "ozet": "Çukurova bölgesindeki otellere satış sunumu için hazırlanan, 4 dilde konuşan, fiyat/müsaitlik hesaplayan, oda fotoğrafı gönderen ve acil durumları Telegram'dan personele devreden Instagram & WhatsApp DM asistanı.",
+  "eleme": "Gelen her misafir mesajını (metin, sesli mesaj, fotoğraf) işler. Fiyat sorularında giriş-çıkış tarihi, yetişkin sayısı ve çocuk yaşlarını doğrular; dolu tarihlerde yakın alternatif tarihleri otomatik dener. Şikâyet, oda arızası veya canlı yetkili talebinde konuşmayı Telegram bildirimiyle otel personeline devreder.",
+  "model": "Ana sohbet için OpenAI gpt-4.1-mini, sesli mesaj çevirisi için gpt-4o-mini-transcribe, görsel okuma için gpt-4o-mini kullanılır.",
+  "sunum": "Terminal, Web Demo ekranı veya ManyChat (Instagram/WhatsApp) üzerinden anlık cevap, rezervasyon bağlantısı ve oda fotoğrafları döner; personel devirlerini Telegram'a bildirir.",
+  "durum": "anlik",
+  "dahil_et": true
+}
+

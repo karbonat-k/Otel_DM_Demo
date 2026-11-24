@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "hotel": "Korykos Boutique Hotel & Beach",
+    "version": "2026-demo-v1",
+    "lang": "tr",
+    "last_updated": "2026-11-13"
+  },
+  "data": {
+    "positioning": "Butik şirket toplantıları, yönetim kurulu kampları, yoga/wellness inzivaları, butik sahil düğünü, nişan ve özel kutlamalar",
+    "venues": [
+      {
+        "name": "Kilikiya Toplantı & Seminer Salonu",
+        "indoor": true,
+        "size_m2": 95,
+        "capacities": {
+          "tiyatro": 60,
+          "sinif": 40,
+          "u_duzeni": 28
+        },
+        "equipment": [
+          "4K Projeksiyon ve perde",
+          "75 inç Smart sunum ekranı",
+          "Kablosuz yaka ve el mikrofonu, ses sistemi",
+          "Flipchart ve yüksek hızlı fiber Wi-Fi",
+          "Coffee break (çay, filtre kahve, ev yapımı kurabiye ve kanepeler)"
+        ]
+      },
+      {
+        "name": "Korykos Sahil Çim & Teras Etkinlik Alanı",
+        "indoor": false,
+        "capacities": {
+          "yemekli_dugun_kutlama": 150,
+          "kokteyl": 220
+        },
+        "note": "Kızkalesi manzaralı gün batımı nikâhı, butik düğün, nişan ve kurumsal gala yemekleri için uygundur."
+      }
+    ],
+    "group_policy": "15 oda veya 20 kişi üzerindeki grup konaklama, toplantı ve etkinlik talepleri için özel grup indirimi uygulanır; satış ekibimizle (+90 324 523 00 42 veya info@korykoshotel.com) iletişime geçebilirsiniz."
+  },
+  "faq": [
+    {
+      "q": "Toplantı salonunuz veya etkinlik alanınız var mı?",
+      "a": "Evet, 60 kişilik tam donanımlı Kilikiya Toplantı Salonumuz ve Kızkalesi manzaralı 150 kişilik sahil/teras davet alanımız bulunmaktadır. Kurumsal toplantı, yoga kampı ve butik kutlamalar için hizmet veriyoruz."
+    }
+  ]
+}
+

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "hotel": "Korykos Boutique Hotel & Beach",
+    "version": "2026-demo-v1",
+    "lang": "tr",
+    "last_updated": "2026-11-13"
+  },
+  "data": {
+    "address": "Kızkalesi Mah. Akdeniz Sahil Bulvarı No:42, Erdemli / Mersin",
+    "closest_town": "Kızkalesi merkez (yürüyerek 3 dk), Erdemli (23 km), Silifke (25 km)",
+    "distances": {
+      "Mersin Şehir Merkezi": "60 km (yaklaşık 45 dk)",
+      "Çukurova Uluslararası Havalimanı (COV)": "110 km (otoban üzerinden yaklaşık 1 saat 15 dk)",
+      "Adana Şehir Merkezi": "135 km (yaklaşık 1 saat 30 dk)",
+      "Cennet ve Cehennem Obrukları / Astım Mağarası": "5 km (araçla 7 dk)",
+      "Narlıkuyu Koyları ve Mozaik Müzesi": "4 km (araçla 5 dk)",
+      "Kanlıdivane Antik Kenti": "8 km (araçla 10 dk)"
+    },
+    "airport_transfer": {
+      "available": true,
+      "airport": "Çukurova Uluslararası Havalimanı (COV)",
+      "vehicle": "Özel VIP Mercedes Vito (1-6 kişilik)",
+      "one_way_price_tl": 2800,
+      "note": "VIP havalimanı transferimiz tek yön araç başı (1-6 kişi) 2.800 TL'dir. En az 24 saat önceden uçuş kodu ile rezervasyon yapılması gerekir."
+    },
+    "public_transport": {
+      "from_mersin_or_silifke": "Mersin Otogarı'ndan ve Silifke'den her 20 dakikada bir kalkan Kızkalesi-Silifke sahil minibüsleri otelimizin cadde girişinin (100 m) önünden geçmektedir.",
+      "from_airport": "Çukurova Havalimanı'ndan HAVAŞ servisleri ile Mersin Forum/Otogar durağına gelip oradan Kızkalesi minibüslerine aktarma yapılabilir."
+    }
+  },
+  "faq": [
+    {
+      "q": "Otel tam olarak nerede, denize yakın mı?",
+      "a": "Otelimiz Mersin Erdemli'ye bağlı Kızkalesi beldesinde, Akdeniz Sahil Bulvarı No:42 adresinde denize sıfır konumdadır. Tarihi Kızkalesi'nin tam karşısındadır."
+    },
+    {
+      "q": "Havalimanı transferiniz var mı, ücreti ne kadar?",
+      "a": "Evet, Çukurova Uluslararası Havalimanı'ndan (COV) otelimize özel VIP Vito araçla (1-6 kişi) tek yön transfer hizmetimiz 2.800 TL'dir. Uçuşunuzdan en az 24 saat önce bilgi vermeniz yeterlidir."
+    },
+    {
+      "q": "Toplu taşıma ile nasıl gelebilirim?",
+      "a": "Mersin merkezden veya Silifke'den 20 dakikada bir kalkan Kızkalesi sahil dolmuşları ile otelimizin 100 metre yakınına kadar kolayca ulaşabilirsiniz."
+    }
+  ]
+}
+

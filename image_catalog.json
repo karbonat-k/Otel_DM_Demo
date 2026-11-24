@@ -1,0 +1,70 @@
+{
+  "_aciklama": "Korykos Boutique Hotel & Beach (Mersin Kızkalesi) demo görsel kataloğu. Yüksek çözünürlüklü, her zaman erişilebilir Unsplash otel/plaj/oda fotoğrafları kullanılır. Gerçek müşteri oteline geçildiğinde otelin kendi fotoğrafları buraya konur.",
+  "_kaynak": "https://www.korykoshotel.com",
+  "_guncelleme": "2026-11-13",
+  "catalog": {
+    "room_standard": {
+      "label": "Standart Bahçe Manzaralı Oda",
+      "images": [
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    "room_deluxe_sea": {
+      "label": "Deluxe Deniz & Kızkalesi Manzaralı Oda",
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    "room_family": {
+      "label": "Aile Odası (Ara Kapılı)",
+      "images": [
+        "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    "room_suite_jacuzzi": {
+      "label": "Korykos Teras Suit (Jakuzili)",
+      "images": [
+        "/static/jacuzzi_terrace_1.jpg",
+        "/static/jacuzzi_suite_2.jpg"
+      ]
+    },
+    "room_engelsiz": {
+      "label": "Engelsiz / Erişilebilir Bahçe Odası",
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    "beach_pool": {
+      "label": "Özel Kum Plaj & Açık Yüzme Havuzu",
+      "images": [
+        "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    "spa_wellness": {
+      "label": "Butik SPA, Hamam & Masaj",
+      "images": [
+        "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    "dining": {
+      "label": "Olba Teras Restoran & Kahvaltı",
+      "images": [
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    "exterior": {
+      "label": "Otel Dış Görünüm & Bahçe",
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+      ]
+    }
+  }
+}
+

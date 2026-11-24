@@ -1,0 +1,301 @@
+{
+  "passed": 20,
+  "total": 20,
+  "results": [
+    {
+      "id": "S01_GENEL_KONUM",
+      "title": "Konum ve Denize Mesafe (TR)",
+      "passed": true,
+      "duration_s": 3.12,
+      "response": {
+        "text": "Otelimiz Mersin Erdemli Kızkalesi'nde, Akdeniz Sahil Bulvarı No:42 adresinde, denize sıfır konumdadır. Tarihi Kızkalesi'nin tam karşısındadır. Plajımız kumdur. Başka sorunuz olursa memnuniyetle yardımcı olurum.",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S02_FIYAT_2YETISKIN",
+      "title": "2 Yetişkin 2 Gece Fiyat Sorgusu (TR)",
+      "passed": true,
+      "duration_s": 3.98,
+      "response": {
+        "text": "18-20 Haziran 2027 tarihleri arasında 2 yetişkin için fiyatlarımız:\n\nOda + Kahvaltı:\n- Standart Bahçe Manzaralı Oda: 9.100 TL\n- Deluxe Deniz & Kızkalesi Manzaralı Oda: 12.150 TL\n\nYarım Pansiyon (kahvaltı + akşam yemeği):\n- Standart Bahçe Manzaralı Oda: 12.100 TL\n- Deluxe Deniz & Kızkalesi Manzaralı Oda: 15.150 TL\n\nDetaylı rezervasyon için link: https://www.korykoshotel.com/rezervasyon?checkin=2027-06-18&checkout=2027-06-20&nights=2&rooms=1&adults=2&children=0&lang=tr&currency=TRY",
+        "link": "https://www.korykoshotel.com/rezervasyon?checkin=2027-06-18&checkout=2027-06-20&nights=2&rooms=1&adults=2&children=0&lang=tr&currency=TRY",
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S03_EKSIK_COCUK_YASI",
+      "title": "Çocuk Yaşı Eksikken Fiyat Uydurmama (TR)",
+      "passed": true,
+      "duration_s": 1.23,
+      "response": {
+        "text": "Çocukların yaşlarını öğrenebilir miyim? Çünkü 0-6 yaş ücretsiz, 7-11 yaş indirimli, 12 ve üzeri yetişkin sayılır.",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S04_12YAS_USTU_KURALI",
+      "title": "12+ Yaş Çocuk Yetişkin Sınıflaması (TR)",
+      "passed": true,
+      "duration_s": 3.08,
+      "response": {
+        "text": "20-22 Haziran 2027 tarihleri arasında 2 yetişkin ve 14 yaşındaki çocuk yetişkin sayıldığından toplam 3 yetişkin için fiyatlar şöyle:\n\nOda + Kahvaltı:\n- Standart Oda: 10.750 TL\n- Deluxe Deniz Manzaralı Oda: 14.350 TL\n- Aile Odası: 19.150 TL\n\nYarım Pansiyon:\n- Standart Oda: 15.250 TL\n- Deluxe Deniz Manzaralı Oda: 18.850 TL\n- Aile Odası: 23.650 TL\n\nRezervasyon için link: https://www.korykoshotel.com/rezervasyon?checkin=2027-06-20&checkout=2027-06-22&nights=2&rooms=1&adults=3&children=0&lang=tr&currency=TRY",
+        "link": "https://www.korykoshotel.com/rezervasyon?checkin=2027-06-20&checkout=2027-06-22&nights=2&rooms=1&adults=3&children=0&lang=tr&currency=TRY",
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S05_DOLU_TARIH_ALTERNATIF",
+      "title": "Dolu Tarihte (15-16 Ağustos) Otomatik Alternatif Önerme (TR)",
+      "passed": true,
+      "duration_s": 3.5,
+      "response": {
+        "text": "15 Ağustos 2026 için 2 yetişkin odalarımız doludur. Ancak 16 Ağustos 2026 - 17 Ağustos 2026 tarihleri arasında müsaitlik var. Bu tarihte fiyatlar şöyle:\n\nOda + Kahvaltı:\n- Standart Bahçe Manzaralı Oda: 4.850 TL\n- Deluxe Deniz & Kızkalesi Manzaralı Oda: 6.500 TL\n- Aile Odası: 8.650 TL\n- Korykos Teras Suit (Jakuzili): 11.050 TL\n\nYarım Pansiyon (kahvaltı + akşam yemeği):\n- Standart Oda: 6.350 TL\n- Deluxe Oda: 8.000 TL\n- Aile Odası: 10.150 TL\n- Teras Suit: 12.550 TL\n\nDetaylı rezervasyon için linki kullanabilirsiniz. Yardımcı olayım mı?",
+        "link": "https://www.korykoshotel.com/rezervasyon?checkin=2027-08-15&checkout=2027-08-16&nights=1&rooms=1&adults=2&children=0&lang=tr&currency=TRY",
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S06_ODA_FOTOGRAFI_JAKUZI",
+      "title": "Jakuzili Suit Bilgisi ve Fotoğraf Gönderimi (TR)",
+      "passed": true,
+      "duration_s": 3.83,
+      "response": {
+        "text": "Jakuzili odamız \"Korykos Teras Suit\"tir. Bu oda, Kızkalesi manzaralı özel terasta sıcak su jakuzisi ile donatılmıştır. Fotoğraflarını sizinle paylaştım, inceleyebilirsiniz. Başka sorunuz olursa yardımcı olmaktan memnuniyet duyarım.",
+        "link": null,
+        "images": [
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "image_keys": [
+          "room_suite_jacuzzi"
+        ],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S07_KAHVALTI_VE_YARIM_PANSIYON",
+      "title": "Kahvaltı Saatleri ve Akşam Yemeği Konsepti (TR)",
+      "passed": true,
+      "duration_s": 2.66,
+      "response": {
+        "text": "Kahvaltı her sabah 08:00 - 11:00 arasında deniz manzaralı terasta sunulur. Yarım pansiyon seçerseniz, akşam yemeği 19:00 - 21:30 arasında 4 çeşit seçmeli; mezeler, ara sıcak, ızgara balık/et/tavuk ana yemek ve tatlı içerir. Afiyet olsun!",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S08_EVCIL_HAYVAN",
+      "title": "Evcil Hayvan Politikası (TR)",
+      "passed": true,
+      "duration_s": 2.34,
+      "response": {
+        "text": "Evet, bahçe katı odalarımızda 10 kg'a kadar küçük köpek kabul ediyoruz. Günlük 350 TL ek temizlik ücreti uygulanmaktadır. Rezervasyon sırasında bilgi vermeniz yeterli olacaktır. Başka sorunuz olursa yardımcı olurum.",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S09_HAVALIMANI_TRANSFER",
+      "title": "Çukurova Havalimanı VIP Transfer (TR)",
+      "passed": true,
+      "duration_s": 2.25,
+      "response": {
+        "text": "Evet, Çukurova Havalimanı'ndan otelimize özel VIP Mercedes Vito araçla (1-6 kişi) tek yön transfer hizmetimiz var. Ücreti 2.800 TL'dir. Uçuşunuzdan en az 24 saat önce bilgi vermeniz yeterlidir.",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S10_GUNUBIRLIK_PLAJ_HAVUZ",
+      "title": "Günübirlik Havuz ve Plaj Kullanımı (TR)",
+      "passed": true,
+      "duration_s": 2.39,
+      "response": {
+        "text": "Evet, otelimizde konaklamadan sadece 09:30-18:30 saatleri arasında günübirlik havuz ve plaj kullanımı mümkündür. Kişi başı ücret 950 TL, 7-11 yaş çocuklar için 475 TL, 0-6 yaş ücretsizdir. Şezlong, şemsiye, havlu ve 1 hoş geldiniz içeceği dahildir.",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S11_EVLILIK_CUZDANI",
+      "title": "Çift Konaklamasında Evlilik Cüzdanı Sorusu (TR)",
+      "passed": true,
+      "duration_s": 2.31,
+      "response": {
+        "text": "Otelimizde evlilik cüzdanı şartı yoktur. Girişte sadece kimlik veya pasaport göstermeniz yeterlidir. Keyifli bir konaklama dilerim!",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S12_KURBAN_BAYRAMI",
+      "title": "Resmi/Dini Tatil Tarihini Bulup Fiyatlama (TR)",
+      "passed": true,
+      "duration_s": 2.2,
+      "response": {
+        "text": "Kurban Bayramı 16-19 Mayıs 2027 tarihleri arasındadır. Kaç gece kalmayı planlıyorsunuz? Ayrıca çocuk var mı? Varsa yaşlarını da belirtir misiniz?",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S13_IPTAL_VE_TAKSIT",
+      "title": "İptal Koşulları ve Kredi Kartına Taksit (TR)",
+      "passed": true,
+      "duration_s": 2.7,
+      "response": {
+        "text": "Rezervasyon iptallerinde, giriş tarihine 7 gün kalaya kadar %100 ücretsiz iade yapılır. Daha yakın iptallerde ise ilk gece ücreti kesilir veya tarih değişikliği hakkı tanınır. Kredi kartına taksit olarak, anlaşmalı bankaların kredi kartlarına vade farksız 3 taksit imkanı sunulmaktadır. Başka sorunuz olursa yardımcı olurum.",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S14_BALAYI_VE_CANLI_MUZIK",
+      "title": "Balayı İkramı ve Canlı Müzik (TR)",
+      "passed": true,
+      "duration_s": 2.41,
+      "response": {
+        "text": "Balayı misafirlerimize ücretsiz oda süslemesi, meyve sepeti ve akşam yemeğinde 2 kişilik kutlama pastası ikram ediyoruz. Akşamları Cuma ve Cumartesi günleri 20:30-23:00 arasında Olba Teras Restoran'da canlı akustik müzik oluyor. Başka sorunuz olursa memnuniyetle yardımcı olurum.",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S15_SIKAYET_TELEGRAM_DEVIR",
+      "title": "Acil Oda Şikâyeti -> Telegram Personel Devri (TR)",
+      "passed": true,
+      "duration_s": 2.7,
+      "response": {
+        "text": "204 numaralı odadaki klima sorununuz için ilgili ekibe hemen bilgi verdim. En kısa sürede sizinle ilgilenilecek, lütfen biraz sabırlı olun.",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": true,
+        "escalation_info": {
+          "sent": true,
+          "category": "sikayet",
+          "urgency": "acil",
+          "summary": "204 numaralı odada klima arızası ve oda çok sıcak. Misafir resepsiyona ulaşamıyor, acil müdahale gerekiyor."
+        }
+      }
+    },
+    {
+      "id": "S16_CANLI_DESTEK_DEVIR",
+      "title": "Telefon Bırakıp Aranma Talebi -> Telegram Devri (TR)",
+      "passed": true,
+      "duration_s": 2.77,
+      "response": {
+        "text": "Talebiniz ilgili ekibimize iletildi. En kısa sürede sizi arayacaklardır. Başka yardımcı olabileceğim bir şey var mı?",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": true,
+        "escalation_info": {
+          "sent": true,
+          "category": "canli_destek",
+          "urgency": "normal",
+          "summary": "Misafir yetkili biriyle telefonda görüşmek istiyor, numara: 0532 111 22 33"
+        }
+      }
+    },
+    {
+      "id": "S17_ENGLISH_PRICE_AND_BEACH",
+      "title": "İngilizce Fiyat ve Plaj Sorusu (EN)",
+      "passed": true,
+      "duration_s": 3.78,
+      "response": {
+        "text": "We have available Deluxe Sea & Kızkalesi View rooms for 2 adults from June 18 to June 20. The total price for 2 nights is 12,150 TRY with Bed & Breakfast or 15,150 TRY with Half Board (breakfast and dinner included).\n\nOur hotel is right by the sea with direct access to a fine golden sandy beach. The sea is shallow and calm, very suitable for families with children. Beach chairs, umbrellas, cushions, and towels are provided free for guests.\n\nWould you like me to send you the booking link?",
+        "link": "https://www.korykoshotel.com/rezervasyon?checkin=2027-06-18&checkout=2027-06-20&nights=2&rooms=1&adults=2&children=0&lang=tr&currency=TRY",
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S18_RUSSIAN_FAMILY_INFO",
+      "title": "Rusça Aile Odası ve Havuz Sorusu (RU)",
+      "passed": true,
+      "duration_s": 2.62,
+      "response": {
+        "text": "Да, семейный номер для 2 взрослых и 2 детей (5 и 8 лет) с 10 по 13 июня доступен. Стоимость на 3 ночи: с завтраком 27.100 TL, с полупансионом (завтрак и ужин) 32.700 TL. Хотите, я могу отправить ссылку для бронирования?",
+        "link": "https://www.korykoshotel.com/rezervasyon?checkin=2027-06-10&checkout=2027-06-13&nights=3&rooms=1&adults=2&children=2&lang=tr&currency=TRY",
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S19_GERMAN_TRANSFER_AND_PETS",
+      "title": "Almanca Havalimanı Transfer ve Evcil Hayvan Sorusu (DE)",
+      "passed": true,
+      "duration_s": 2.95,
+      "response": {
+        "text": "Ja, wir bieten einen VIP-Transfer vom Flughafen Çukurova (COV) mit einem Mercedes Vito für 1-6 Personen an. Der Preis für eine einfache Fahrt beträgt 2800 TL. Bitte buchen Sie mindestens 24 Stunden im Voraus mit Ihrem Flugcode.\n\nKleine Hunde bis 10 kg sind in den Gartenetagen-Zimmern erlaubt, es fällt jedoch eine tägliche Reinigungsgebühr von 350 TL an. Bitte informieren Sie uns bei der Reservierung darüber.",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    },
+    {
+      "id": "S20_COK_TUR_HAFIZA",
+      "title": "Çok Turlu Konuşma Hafızası Testi (TR)",
+      "passed": true,
+      "duration_s": 4.42,
+      "response": {
+        "text": "Fiyatlar iki şekilde sunuldu: Oda + Kahvaltı ve Yarım Pansiyon (kahvaltı + akşam yemeği). Akşam yemeği sadece Yarım Pansiyon konseptinde dahildir. İsterseniz hangi konsepti tercih ettiğinizi söyleyebilirsiniz.",
+        "link": null,
+        "images": [],
+        "image_keys": [],
+        "escalated": false,
+        "escalation_info": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "hotel": "Korykos Boutique Hotel & Beach",
+    "version": "2026-demo-v1",
+    "lang": "tr",
+    "last_updated": "2026-11-13"
+  },
+  "data": {
+    "total_rooms": 30,
+    "bed_capacity": 85,
+    "building": "3 katlı Akdeniz mimarili taş ve ahşap butik yapı (asansör mevcuttur)",
+    "room_types": [
+      {
+        "code": "room_standard",
+        "name": "Standart Bahçe Manzaralı Oda",
+        "count": 12,
+        "size_m2": 24,
+        "max_capacity": "En fazla 2 yetişkin + 1 çocuk (veya 3 yetişkin)",
+        "bed_setup": "1 çift kişilik yatak (French bed) veya 2 tek kişilik yatak + 1 açılır sofa yatak",
+        "view": "Turunçgil ve begonvil bahçesi manzaralı, balkonlu",
+        "bathroom": "Yağmur duşlu modern duşakabin (jakuzi yoktur)"
+      },
+      {
+        "code": "room_deluxe_sea",
+        "name": "Deluxe Deniz & Kızkalesi Manzaralı Oda",
+        "count": 10,
+        "size_m2": 30,
+        "max_capacity": "En fazla 2 yetişkin + 1 çocuk (veya 3 yetişkin)",
+        "bed_setup": "1 geniş çift kişilik yatak (King size) + 1 dinlenme koltuğu (yatak olabilir)",
+        "view": "Doğrudan Akdeniz ve tarihi Kızkalesi manzaralı geniş balkon",
+        "bathroom": "Yağmur duşlu duşakabin, Nespresso kahve makinesi"
+      },
+      {
+        "code": "room_family",
+        "name": "Aile Odası (Ara Kapılı 2 Odalı)",
+        "count": 5,
+        "size_m2": 45,
+        "max_capacity": "En fazla 4 yetişkin + 1 çocuk (toplam 5 kişi)",
+        "bed_setup": "Ebeveyn odasında 1 çift kişilik yatak, ara kapılı ikinci odada 2 tek kişilik yatak + 1 sofa",
+        "view": "Yandan deniz ve havuz manzaralı geniş balkon",
+        "bathroom": "Tek geniş banyo (çift lavabolu duşakabin)"
+      },
+      {
+        "code": "room_suite_jacuzzi",
+        "name": "Korykos Teras Suit (Jakuzili)",
+        "count": 2,
+        "size_m2": 52,
+        "max_capacity": "En fazla 2 yetişkin + 1 çocuk (balayı ve özel konaklamalar için idealdir)",
+        "bed_setup": "1 King size yatak + oturma alanı",
+        "view": "Üst katta panoramik Kızkalesi ve deniz manzaralı 20 m² özel teras",
+        "bathroom": "Terasta deniz manzaralı sıcak su jakuzisi + içeride yağmur duşlu banyo, Nespresso makinesi, bornoz seti"
+      },
+      {
+        "code": "room_engelsiz",
+        "name": "Engelsiz / Erişilebilir Bahçe Odası",
+        "count": 1,
+        "size_m2": 28,
+        "max_capacity": "En fazla 2 yetişkin + 1 çocuk",
+        "bed_setup": "1 çift kişilik veya 2 tek kişilik yatak, giriş katında tekerlekli sandalyeye tam uyumlu",
+        "view": "Bahçe teraslı, havuz ve restorana engelsiz rampa erişimli",
+        "bathroom": "Tutunma barlı, engelsiz duş alanı"
+      }
+    ],
+    "housekeeping": {
+      "room_cleaning": "Her gün 10:00 - 15:00 arası",
+      "linen_change": "2 günde bir (talebe göre her gün)",
+      "towel_change": "Her gün (plaj havlusu da ücretsiz verilir)"
+    },
+    "amenities_common": [
+      "Klima (bireysel inverter)",
+      "Balkon veya teras",
+      "Ücretsiz yüksek hızlı Wi-Fi",
+      "43 inç Smart TV (Netflix/YouTube destekli)",
+      "Minibar (girişte 2 şişe su ücretsiz, diğer ürünler ücretli)",
+      "Su ısıtıcısı ve ücretsiz çay-bitki çayı-kahve seti",
+      "Dijital çelik kasa (ücretsiz)",
+      "Saç kurutma makinesi",
+      "Buklet malzemeleri ve terlik"
+    ],
+    "activities": {
+      "free": [
+        "Açık yüzme havuzu ve çocuk havuzu",
+        "Anlaşmalı kum plajda ücretsiz şezlong, şemsiye ve plaj havlusu",
+        "Kızkalesi'ne deniz bisikleti veya kano (günde 30 dk ücretsiz)",
+        "Masa tenisi ve kutu oyunları",
+        "Bahçe yoga alanı"
+      ],
+      "paid_examples": [
+        "Kızkalesi & Narlıkuyu koyları özel tekne turu",
+        "Cennet-Cehennem Obrukları, Astım Mağarası ve Kanlıdivane kültür turu",
+        "Tüp dalış (Scuba diving) ve su sporları",
+        "Masaj ve cilt bakımı"
+      ],
+      "entertainment": [
+        "Cuma ve Cumartesi akşamları Teras Restoran'da canlı akustik müzik (20:30 - 23:00)"
+      ]
+    },
+    "notes": [
+      "Jakuzi yalnızca 'Korykos Teras Suit' odamızda bulunmaktadır; Standart, Deluxe ve Aile odalarımızda modern duşakabin mevcuttur.",
+      "Çocuk kuralı: 0-6 yaş 1 çocuk ücretsizdir, 7-11 yaş indirimli çocuk tarifesinden yararlanır, 12 yaş ve üzeri yetişkin sayılır.",
+      "Bebek yatağı (park yatak) tüm oda tiplerine ücretsiz eklenebilir."
+    ]
+  },
+  "faq": [
+    {
+      "q": "Hangi odalarda jakuzi var?",
+      "a": "Jakuzi yalnızca üst kattaki Korykos Teras Suit odamızda, Kızkalesi manzaralı özel terasta bulunmaktadır. Diğer odalarımızda yağmur duşlu modern duşakabin mevcuttur."
+    },
+    {
+      "q": "Aile odasında kaç kişi kalabilir ve yapısı nasıldır?",
+      "a": "Aile odamız 45 m² büyüklüğünde ve ara kapılı 2 ayrı odadan oluşur. En fazla 4 yetişkin + 1 çocuk (toplam 5 kişi) rahatlıkla konaklayabilir."
+    },
+    {
+      "q": "Odalar deniz manzaralı mı?",
+      "a": "Deluxe odalarımız ve Korykos Teras Suit odalarımız doğrudan Akdeniz ve Kızkalesi manzaralıdır. Aile odalarımız yandan deniz ve havuz, Standart odalarımız ise turunçgil bahçesi manzaralıdır."
+    }
+  ]
+}
+

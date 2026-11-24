@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "hotel": "Korykos Boutique Hotel & Beach",
+    "version": "2026-demo-v1",
+    "lang": "tr",
+    "last_updated": "2026-11-13"
+  },
+  "data": {
+    "beach": {
+      "distance": "Denize sıfır (otel bahçesinden kum plaja doğrudan çıkış)",
+      "type": "İnce altın sarısı kum plaj, sığ ve dalgasız deniz (çocuklu aileler için çok uygun)",
+      "view": "Tam karşısında tarihi Deniz Kalesi (Kızkalesi, kıyıya 600 metre mesafede)",
+      "included_for_guests": "Otel misafirlerimiz için plajda şezlong, şemsiye, minder ve plaj havlusu tamamen ücretsizdir."
+    },
+    "pools": [
+      {
+        "name": "Ana Açık Yüzme Havuzu",
+        "indoor": false,
+        "heated": "Nisan-Mayıs ve Ekim-Kasım aylarında ılık ısıtmalı (26°C)",
+        "depth_cm": 145,
+        "area_m2": 180,
+        "hours": "08:00 - 20:00"
+      },
+      {
+        "name": "Çocuk Havuzu",
+        "indoor": false,
+        "depth_cm": 45,
+        "area_m2": 20,
+        "hours": "08:00 - 20:00"
+      }
+    ],
+    "swim_cap_required": false,
+    "day_use": {
+      "available": true,
+      "hours": "09:30 - 18:30",
+      "price_adult_tl": 950,
+      "price_child_7_11_tl": 475,
+      "child_0_6": "Ücretsiz",
+      "includes": "Açık havuz kullanımı, plaj şezlong/şemsiye, havlu, duş/soyunma kabini ve 1 adet hoş geldiniz soğuk içeceği dahildir. Yemek ve diğer içecekler ekstra ücretlidir."
+    },
+    "spa_wellness": {
+      "hours": "10:00 - 21:00",
+      "facilities": [
+        "Butik Türk Hamamı",
+        "Fin Saunası",
+        "2 adet Masaj ve Bakım Odası"
+      ],
+      "guest_access": "Konaklayan misafirlerimiz için sauna ve hamam kullanımı (10:00-18:00 arası, randevu ile) ücretsizdir. Kese-köpük ve masaj paketleri ekstra ücretlidir.",
+      "sample_prices": [
+        {
+          "name": "Geleneksel Kese & Köpük Ritüeli (40 dk)",
+          "price_tl": 1200
+        },
+        {
+          "name": "Aromaterapi / Bali Masajı (50 dk)",
+          "price_tl": 1600
+        },
+        {
+          "name": "Çiftlere Özel VIP Hamam & Masaj Paketi (90 dk, meyve tabağı dahil)",
+          "price_tl": 3400
+        }
+      ]
+    },
+    "kids": {
+      "mini_garden": "Bahçede gölgelikli çocuk oyun parkı (4-10 yaş), masa oyunları, mama sandalyesi ve ücretsiz bebek yatağı mevcuttur.",
+      "sea_safety": "Kızkalesi plajı ilk 50 metre boyunca sığ olduğu için çocuklar için bölgenin en güvenli plajlarından biridir."
+    }
+  },
+  "faq": [
+    {
+      "q": "Denize uzaklığı ne kadar, plaj kum mu?",
+      "a": "Otelimiz denize sıfırdır; bahçe kapımızdan doğrudan Kızkalesi'nin meşhur ince kumlu ve sığ plajına çıkılır. Misafirlerimize şezlong, şemsiye ve plaj havlusu ücretsizdir."
+    },
+    {
+      "q": "Günübirlik havuz ve plaj kullanımı var mı?",
+      "a": "Evet. Konaklama yapmadan 09:30-18:30 arası günübirlik havuz ve plaj kullanımımız kişi başı 950 TL'dir (0-6 yaş ücretsiz, 7-11 yaş 475 TL). Şezlong, şemsiye, havlu ve 1 hoş geldiniz içeceği dahildir."
+    },
+    {
+      "q": "Havuzda bone zorunlu mu?",
+      "a": "Hayır, açık yüzme havuzumuzda bone zorunluluğu bulunmamaktadır."
+    },
+    {
+      "q": "SPA, hamam ve masaj var mı, ücretli mi?",
+      "a": "Otelimizde butik Türk hamamı, sauna ve masaj odaları bulunmaktadır. Konaklayan misafirlerimize hamam ve sauna kullanımı ücretsizdir; kese-köpük (1200 TL) ve 50 dk masaj (1600 TL) gibi bakımlar ekstra ücretlidir."
+    }
+  ]
+}
+

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "hotel": "Korykos Boutique Hotel & Beach",
+    "version": "2026-demo-v1",
+    "lang": "tr",
+    "last_updated": "2026-11-13"
+  },
+  "data": {
+    "board_concepts": {
+      "BB": {
+        "name": "Oda + Kahvaltı",
+        "includes": "08:00 - 11:00 arası zengin Çukurova & Akdeniz serpme/açık büfe kahvaltısı, sınırsız demleme çay, filtre kahve ve taze sıkma portakal suyu dahildir."
+      },
+      "HB": {
+        "name": "Yarım Pansiyon (Kahvaltı + Akşam Yemeği)",
+        "includes": "Sabah kahvaltısına ek olarak 19:00 - 21:30 arası Teras Restoran'da 4 çeşit seçmeli Akdeniz akşam yemeği (başlangıç/meze, ara sıcak, ızgara balık/et/tavuk ana yemek, tatlı/meyve) ve su dahildir. Alkollü/alkolsüz diğer içecekler ekstradır."
+      }
+    },
+    "restaurants_and_bars": [
+      {
+        "name": "Olba Teras Restoran",
+        "type": "Kahvaltı & Akşam A la Carte Restoran (Kızkalesi manzaralı)",
+        "hours": "08:00 - 23:30",
+        "cuisine": "Taze Akdeniz deniz ürünleri, Adana/Mersin yöresel ızgaraları, zeytinyağlı mezeler, taş fırın lezzetleri ve çocuk menüsü",
+        "capacity": "Kapalı 60 kişi, deniz terası 90 kişi"
+      },
+      {
+        "name": "Korykos Beach & Pool Bar",
+        "type": "Plaj ve Havuz Bar & Snack",
+        "hours": "10:00 - 00:00",
+        "offerings": "Gün boyu soğuk kahveler, taze meyve kokteylleri, yerli/ithal alkollü içecekler, Mersin tantunisi, ev yapımı burger, pizza ve salatalar"
+      }
+    ],
+    "live_music": {
+      "available": true,
+      "venue": "Olba Teras Restoran",
+      "days": ["Cuma", "Cumartesi"],
+      "hours": "20:30 - 23:00",
+      "style": "Akustik gitar, caz ve Akdeniz ezgileri (konaklayan misafirlerimize ücretsizdir)"
+    },
+    "special_notes": [
+      "Odalarda giriş günü 2 şişe su, çay ve kahve seti ücretsizdir; gün içinde lobide çay ve su ikramımız ücretsizdir.",
+      "Vejetaryen, vegan ve glütensiz beslenen misafirlerimiz için mutfağımız özel hazırlık yapmaktadır.",
+      "Doğum günü ve evlilik yıl dönümü konaklamalarında masaya ücretsiz kutlama pastası (2 kişilik) ve oda süslemesi ikramımızdır (önceden bilgi verilmesi yeterlidir)."
+    ]
+  },
+  "faq": [
+    {
+      "q": "Kahvaltı saat kaçta ve neler dahil?",
+      "a": "Kahvaltımız her sabah 08:00 - 11:00 saatleri arasında deniz manzaralı terasımızda sunulur. Yöresel peynirler, zeytinler, sıcak gözleme/börek, yumurta çeşitleri, sınırsız çay, filtre kahve ve taze portakal suyu dahildir."
+    },
+    {
+      "q": "Yarım pansiyon seçersek akşam yemeğinde ne var?",
+      "a": "Yarım pansiyon konseptimizde akşam yemeği 19:00 - 21:30 arasında Olba Teras Restoran'da sunulur; günün çorbası/mezeleri, ara sıcak, ızgara deniz levreği/çipura veya et/tavuk ana yemek seçimi ve tatlı dahildir."
+    },
+    {
+      "q": "Otelde alkol servisi veya canlı müzik var mı?",
+      "a": "Evet, restoranımızda ve plaj barımızda alkollü/alkolsüz içecek servisi mevcuttur. Cuma ve Cumartesi akşamları 20:30 - 23:00 arası terasımızda canlı akustik müzik etkinliğimiz vardır."
+    },
+    {
+      "q": "Balayı veya yıl dönümü için sürpriz yapıyor musunuz?",
+      "a": "Evet, balayı, doğum günü ve yıl dönümü misafirlerimize ücretsiz oda süslemesi, meyve sepeti ve akşam yemeğinde 2 kişilik kutlama pastası ikram ediyoruz."
+    }
+  ]
+}
+
