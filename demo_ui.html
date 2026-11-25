@@ -23,7 +23,7 @@
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: #0a0a0c;
+      background: #09090c;
       color: var(--ig-text);
       min-height: 100vh;
       display: flex;
@@ -31,28 +31,31 @@
       align-items: center;
     }
 
-    /* Ana Düzen (Desktop: Telefon Kasası + Hızlı Testler / Mobil: Tam Ekran) */
+    /* Ana Düzen */
     .app-container {
       display: flex;
-      gap: 30px;
+      gap: 28px;
       align-items: center;
       justify-content: center;
       width: 100%;
-      max-width: 900px;
-      padding: 20px;
+      max-width: 940px;
+      padding: 16px;
     }
 
-    /* Masaüstünde Sol Panel (Hazır Senaryolar) */
+    /* Masaüstünde Sol Panel (Kategorize Edilmiş Senaryolar) */
     .desktop-sidebar {
-      width: 320px;
-      background: #141417;
-      border: 1px solid #282830;
-      border-radius: 20px;
-      padding: 22px;
+      width: 380px;
+      height: 760px;
+      max-height: 96vh;
+      background: #131317;
+      border: 1px solid #262630;
+      border-radius: 24px;
+      padding: 20px;
       display: flex;
       flex-direction: column;
-      gap: 14px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+      gap: 12px;
+      box-shadow: 0 20px 45px rgba(0,0,0,0.6);
+      overflow: hidden;
     }
     .badge-pill {
       display: inline-flex;
@@ -62,43 +65,61 @@
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      padding: 5px 12px;
+      padding: 4px 10px;
       border-radius: 999px;
       background: rgba(0, 149, 246, 0.15);
       color: #38bdf8;
       width: fit-content;
     }
-    .desktop-sidebar h2 { font-size: 17px; font-weight: 700; line-height: 1.3; }
-    .desktop-sidebar p { font-size: 12.5px; color: var(--ig-subtext); line-height: 1.5; }
+    .desktop-sidebar h2 { font-size: 17px; font-weight: 700; line-height: 1.25; }
+    .desktop-sidebar p { font-size: 12px; color: var(--ig-subtext); line-height: 1.45; }
+
     .quick-list {
+      flex: 1;
       display: flex;
       flex-direction: column;
-      gap: 8px;
-      max-height: 480px;
+      gap: 10px;
       overflow-y: auto;
-      padding-right: 4px;
+      padding-right: 6px;
+      scrollbar-width: thin;
+      scrollbar-color: #333 transparent;
     }
+    .quick-list::-webkit-scrollbar { width: 5px; }
+    .quick-list::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+
+    .category-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #94a3b8;
+      margin-top: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
     .q-btn {
       text-align: left;
-      background: #1e1e24;
-      border: 1px solid #2e2e38;
-      color: #fff;
-      padding: 10px 12px;
+      background: #1b1b22;
+      border: 1px solid #2a2a36;
+      color: #f1f5f9;
+      padding: 9px 12px;
       border-radius: 12px;
-      font-size: 12.5px;
+      font-size: 12px;
       cursor: pointer;
       transition: all 0.15s ease;
       line-height: 1.35;
     }
     .q-btn:hover {
-      background: #282834;
+      background: #242430;
       border-color: #0095f6;
       transform: translateY(-1px);
     }
     .q-btn span {
       display: block;
-      font-size: 10.5px;
-      color: #60a5fa;
+      font-size: 10px;
+      color: #38bdf8;
       font-weight: 600;
       margin-bottom: 2px;
     }
@@ -118,8 +139,8 @@
       position: relative;
     }
 
-    /* Mobilde Tam Ekran Yap */
-    @media (max-width: 820px) {
+    /* Mobilde Tam Ekran */
+    @media (max-width: 840px) {
       body { background: var(--ig-black); padding: 0; }
       .app-container { padding: 0; width: 100vw; height: 100vh; gap: 0; }
       .desktop-sidebar { display: none; }
@@ -248,22 +269,22 @@
       -webkit-overflow-scrolling: touch;
     }
 
-    /* Profil Tanıtım Kartı (Instagram DM en tepesi) */
+    /* Profil Tanıtım Kartı */
     .dm-profile-banner {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 24px 10px 14px;
+      padding: 20px 10px 12px;
       text-align: center;
-      gap: 8px;
+      gap: 6px;
     }
     .banner-avatar-ring {
-      width: 72px;
-      height: 72px;
+      width: 68px;
+      height: 68px;
       border-radius: 50%;
       background: var(--ig-story-ring);
       padding: 2.5px;
-      margin-bottom: 4px;
+      margin-bottom: 2px;
     }
     .banner-avatar {
       width: 100%;
@@ -275,19 +296,19 @@
       align-items: center;
       justify-content: center;
       font-weight: 700;
-      font-size: 24px;
+      font-size: 22px;
       color: #fff;
     }
-    .banner-name { font-size: 16px; font-weight: 700; }
-    .banner-sub { font-size: 12.5px; color: var(--ig-subtext); max-width: 260px; line-height: 1.4; }
+    .banner-name { font-size: 15px; font-weight: 700; }
+    .banner-sub { font-size: 12px; color: var(--ig-subtext); max-width: 260px; line-height: 1.35; }
     .banner-action-btn {
-      margin-top: 6px;
+      margin-top: 4px;
       background: #262626;
       color: #fff;
       border: none;
-      font-size: 12px;
+      font-size: 11.5px;
       font-weight: 600;
-      padding: 6px 14px;
+      padding: 5px 14px;
       border-radius: 8px;
       cursor: pointer;
     }
@@ -326,7 +347,7 @@
     }
 
     .ig-bubble {
-      max-width: 78%;
+      max-width: 80%;
       padding: 11px 15px;
       border-radius: 20px;
       font-size: 13.5px;
@@ -336,21 +357,18 @@
       position: relative;
     }
 
-    /* Gelen Mesaj (Otel / Bot) */
     .msg-row.bot .ig-bubble {
       background: var(--ig-bubble-received);
       color: #fff;
       border-bottom-left-radius: 6px;
     }
 
-    /* Giden Mesaj (Kullanıcı / Sen) — Meşhur Instagram Gradyanı */
     .msg-row.user .ig-bubble {
       background: var(--ig-gradient);
       color: #fff;
       border-bottom-right-radius: 6px;
     }
 
-    /* Medya Görselleri */
     .media-card-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -367,7 +385,6 @@
     }
     .media-card-grid img:hover { opacity: 0.9; }
 
-    /* Rezervasyon Butonu */
     .action-cta-link {
       display: inline-flex;
       align-items: center;
@@ -386,7 +403,6 @@
     }
     .action-cta-link:hover { background: #1877f2; }
 
-    /* Telegram Escalation Bildirimi */
     .escalation-pill {
       margin-top: 8px;
       background: rgba(239, 68, 68, 0.15);
@@ -401,7 +417,6 @@
       gap: 6px;
     }
 
-    /* Yazıyor... Animasyonu */
     .typing-indicator {
       display: none;
       align-items: center;
@@ -428,7 +443,7 @@
       50% { transform: translateY(-3px); opacity: 1; }
     }
 
-    /* Mobilde Yatay Kayan Hızlı Senaryo Çipleri (Input Hemen Üstü) */
+    /* Mobilde Yatay Kayan Hızlı Senaryo Çipleri */
     .quick-chips-scroller {
       padding: 8px 12px;
       display: flex;
@@ -441,12 +456,12 @@
     }
     .quick-chips-scroller::-webkit-scrollbar { display: none; }
     .chip {
-      background: #262626;
-      border: 1px solid #363636;
+      background: #24242a;
+      border: 1px solid #363640;
       color: #efefef;
-      font-size: 11.5px;
+      font-size: 11px;
       font-weight: 500;
-      padding: 6px 12px;
+      padding: 5px 11px;
       border-radius: 999px;
       cursor: pointer;
       display: flex;
@@ -455,7 +470,7 @@
       flex-shrink: 0;
     }
     .chip:hover, .chip:active {
-      background: #333;
+      background: #30303a;
       border-color: #0095f6;
     }
 
@@ -516,37 +531,93 @@
 
   <div class="app-container">
 
-    <!-- DESKTOP İÇİN SUNUM VE HIZLI TEST PANELİ (Masaüstünde sol tarafta durur) -->
+    <!-- DESKTOP İÇİN OTELCİ SUNUM PANELİ (Kategorilere Ayrılmış Zengin Test Senaryoları) -->
     <div class="desktop-sidebar">
       <div class="badge-pill">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-        Canlı Satış Demosu
+        Otelci Test & Sunum Seti
       </div>
-      <h2>Instagram DM Asistanı</h2>
-      <p>Otel sahiplerine sunum yaparken tek tıkla test etmek için hazır senaryoları kullanabilir veya doğrudan Instagram DM kutusundan yazabilirsiniz.</p>
+      <h2>AI Satış Paneli</h2>
+      <p>Otel sahiplerinin en çok merak ettiği 16 kritik misafir senaryosunu aşağıdan tek tıkla test edebilirsiniz:</p>
 
       <div class="quick-list">
+
+        <!-- Kategori 1: Fiyat, Müsaitlik & Akıllı Kurallar -->
+        <div class="category-title">💰 Fiyat & Müsaitlik Hesaplama</div>
+
         <button class="q-btn" onclick="sendQuick('18-20 Haziran için 2 yetişkin oda fiyatlarınız nedir?')">
-          <span>💰 Fiyat & Müsaitlik</span>18-20 Haziran 2 yetişkin fiyatı nedir?
+          <span>📅 Standart Fiyat Sorgusu</span>18-20 Haziran 2 yetişkin oda fiyatı nedir?
         </button>
-        <button class="q-btn" onclick="sendQuick('Jakuzili teras suitinizin fotoğraflarını görebilir miyim?')">
-          <span>📸 Oda Fotoğrafı & Jakuzi</span>Jakuzili teras suit fotoğrafları var mı?
-        </button>
+
         <button class="q-btn" onclick="sendQuick('15-16 Ağustos 2 yetişkin yer var mı?')">
-          <span>🔄 Dolu Tarih Alternatifi</span>15-16 Ağustos 2 yetişkin (Dolu tarih testi)
+          <span>🔄 Dolu Tarihte Alternatif Sunma</span>15-16 Ağustos 2 yetişkin yer var mı? (Dolu tarih testi)
         </button>
-        <button class="q-btn" onclick="sendQuick('10-12 Temmuz 2 yetişkin ve 2 çocuk geleceğiz, fiyat nedir?')">
-          <span>👶 Çocuk Yaşı Yakalama</span>10-12 Temmuz 2 yetişkin 2 çocuk fiyat?
+
+        <button class="q-btn" onclick="sendQuick('10-12 Temmuz 2 yetişkin, 1 çocuk (13 yaş) ve 1 bebek (2 yaş) fiyat nedir?')">
+          <span>👶 Çocuk Yaşı & 12 Yaş Kuralı</span>2 yetişkin + 13 yaş çocuk + 2 yaş bebek fiyat?
         </button>
+
+        <button class="q-btn" onclick="sendQuick('Kredi kartına taksit yapıyor musunuz? İptal şartlarınız nedir?')">
+          <span>💳 Taksit & İptal/İade Politikası</span>Kredi kartına taksit ve iptal şartları nedir?
+        </button>
+
+        <!-- Kategori 2: Otelcinin En Çekindiği Hassas Kurallar -->
+        <div class="category-title">🏨 Otel Kuralları & Hassas Sorular</div>
+
+        <button class="q-btn" onclick="sendQuick('Evlilik cüzdanı şartı arıyor musunuz?')">
+          <span>💍 Evlilik Cüzdanı Politikası</span>Evlilik cüzdanı şartı arıyor musunuz?
+        </button>
+
+        <button class="q-btn" onclick="sendQuick('Küçük bir köpeğimiz var, otele evcil hayvan kabul ediyor musunuz?')">
+          <span>🐾 Evcil Hayvan (Pet-Friendly) Kuralı</span>Küçük köpeğimizle gelebilir miyiz?
+        </button>
+
+        <button class="q-btn" onclick="sendQuick('Giriş ve çıkış saatleriniz kaç? Sabah 09:00\'da gelsek odaya erken girebilir miyiz?')">
+          <span>⏰ Erken Giriş (Early Check-in)</span>Sabah 09:00'da gelsek erken girebilir miyiz?
+        </button>
+
+        <button class="q-btn" onclick="sendQuick('Restoranınızda alkol servisiniz var mı, akşam yemeği saat kaça kadar?')">
+          <span>🍷 Alkol Servisi & Yemek Konsepti</span>Restoranınızda alkol servisi var mı?
+        </button>
+
+        <!-- Kategori 3: Fotoğraf, Plaj & Tesis İmkanları -->
+        <div class="category-title">📸 Fotoğraf & Tesis Özellikleri</div>
+
+        <button class="q-btn" onclick="sendQuick('Jakuzili teras suitinizin fotoğraflarını görebilir miyim?')">
+          <span>📸 Jakuzili Suit Galerisi</span>Jakuzili teras suit fotoğraflarını atar mısınız?
+        </button>
+
+        <button class="q-btn" onclick="sendQuick('Denize sıfır mısınız? Plajda şezlong ve şemsiye ücretli mi?')">
+          <span>🏖️ Plaj, Kum & Şezlong Ücreti</span>Plajda şezlong ve şemsiye ücretli mi?
+        </button>
+
+        <button class="q-btn" onclick="sendQuick('Balayı çiftiyiz, odaya özel bir süsleme veya sürpriz ikramınız var mı?')">
+          <span>❤️ Balayı Konsepti & Sürpriz</span>Balayı çifti için özel jestiniz var mı?
+        </button>
+
+        <button class="q-btn" onclick="sendQuick('Çukurova Havalimanı\'ndan otele VIP transfer hizmetiniz var mı?')">
+          <span>🚐 Havalimanı VIP Transfer</span>Çukurova Havalimanı transferiniz var mı?
+        </button>
+
+        <!-- Kategori 4: Yabancı Dil & Satış Devri (Kritik AI Gücü) -->
+        <div class="category-title">🌍 Çok Dilli Satış & Kriz Yönetimi</div>
+
         <button class="q-btn" onclick="sendQuick('Hello! Do you have a sea view room for 2 adults from June 18 to June 20?')">
-          <span>🇬🇧 İngilizce Misafir Testi</span>Hello! Sea view room (June 18-20)?
+          <span>🇬🇧 İngilizce Misafir Testi</span>Hello! Sea view room price for June 18-20?
         </button>
-        <button class="q-btn" onclick="sendQuick('Здравствуйте! Семейный номер на 2 взрослых и 2 детей (5 и 8 лет) с 10 по 13 июня?')">
-          <span>🇷🇺 Rusça Misafir Testi</span>Семейный номер (2 взрослых + 2 детей)?
+
+        <button class="q-btn" onclick="sendQuick('Здравствуйте! Сколько стоит семейный номер на 2 взрослых и 2 детей на 3 ночи?')">
+          <span>🇷🇺 Rusça Misafir Testi</span>Семейный номер на 2 взрослых и 2 детей?
         </button>
-        <button class="q-btn" onclick="sendQuick('204 numaralı odadayım, klima çalışmıyor ve oda çok sıcak! Acil bakar mısınız?')">
-          <span>🚨 Acil Şikâyet ➔ Telegram</span>204 odada klima bozuldu! (Yetkiliye gider)
+
+        <button class="q-btn" onclick="sendQuick('5 gece kalmayı düşünüyoruz, fiyatta biraz indirim yapar mısınız? Son ne olur?')">
+          <span>🤝 Pazarlık / İndirim Talebi</span>5 gece kalacağız fiyatta son ne olur? (Devir testi)
         </button>
+
+        <button class="q-btn" onclick="sendQuick('204 numaralı odadayım, klima bozuldu oda çok sıcak! Acil yetkili biri gelebilir mi?')">
+          <span>🚨 Acil Şikâyet ➔ Telegram Bildirimi</span>204 odada klima bozuldu! (Otel müdürüne gider)
+        </button>
+
       </div>
     </div>
 
@@ -572,11 +643,9 @@
         </div>
 
         <div class="header-actions">
-          <!-- Reset / Yenile İkonu -->
           <button class="header-icon" title="Sohbeti Sıfırla" onclick="resetChat()">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/></svg>
           </button>
-          <!-- Bilgi İkonu -->
           <button class="header-icon" title="Otel Bilgisi">
             <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
           </button>
@@ -592,7 +661,7 @@
           </div>
           <div class="banner-name">Korykos Boutique Hotel & Beach</div>
           <div class="banner-sub">korykoshotel • Instagram • 28,4 B Takipçi • 30 Odalı Butik Otel</div>
-          <button class="banner-action-btn" onclick="sendQuick('Otelinizin konumu ve plajı hakkında bilgi alabilir miyim?')">Profili Gör</button>
+          <button class="banner-action-btn" onclick="sendQuick('Otelinizin konumu ve genel özellikleri hakkında bilgi alabilir miyim?')">Profili Gör</button>
         </div>
 
         <!-- İlk Karşılama Mesajı -->
@@ -609,13 +678,17 @@
         <span class="typing-dot"></span>
       </div>
 
-      <!-- Mobilde Hızlı Dokunma Çipleri -->
+      <!-- Mobilde Yatay Kayan Hızlı Senaryo Çipleri -->
       <div class="quick-chips-scroller">
         <div class="chip" onclick="sendQuick('18-20 Haziran 2 yetişkin oda fiyatı nedir?')">💰 18-20 Haziran Fiyat</div>
         <div class="chip" onclick="sendQuick('Jakuzili odanızın fotoğraflarını görebilir miyim?')">📸 Jakuzili Oda Fotoğrafı</div>
         <div class="chip" onclick="sendQuick('15-16 Ağustos 2 yetişkin yer var mı?')">🔄 15 Ağustos (Dolu Testi)</div>
-        <div class="chip" onclick="sendQuick('Hello! Sea view room price for June 18-20?')">🇬🇧 English</div>
+        <div class="chip" onclick="sendQuick('Evlilik cüzdanı şartı arıyor musunuz?')">💍 Evlilik Cüzdanı?</div>
+        <div class="chip" onclick="sendQuick('Köpeğimizle gelebilir miyiz, evcil hayvan kabul ediyor musunuz?')">🐾 Evcil Hayvan?</div>
+        <div class="chip" onclick="sendQuick('Plajda şezlong ve şemsiye ücretli mi?')">🏖️ Plaj & Şezlong</div>
+        <div class="chip" onclick="sendQuick('Hello! Sea view room price for June 18-20?')">🇬🇧 English Test</div>
         <div class="chip" onclick="sendQuick('Здравствуйте! Семейный номер на 10-13 июня?')">🇷🇺 Русский</div>
+        <div class="chip" onclick="sendQuick('Fiyatta biraz indirim yapar mısınız, son ne olur?')">🤝 Pazarlık / İndirim</div>
         <div class="chip" onclick="sendQuick('204 nolu odadayım, klima bozuldu acil bakar mısınız?')">🚨 Şikâyet (Telegram)</div>
       </div>
 
