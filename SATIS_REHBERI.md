@@ -79,3 +79,4 @@ Otel sahipleri uzun sunumlar izlemez. Bilgisayardan veya telefondan ekran kaydı
 | **"Bizim resepsiyon bakıyor zaten, gerek yok."** | *"Haklısınız, gündüz resepsiyon ilgilenebiliyor. Ancak veriler gösteriyor ki Instagram kullanıcılarının %60'ı akşam 20:00 - gece 02:00 arasında tatil araştırıyor. Resepsiyonun uyuduğu veya yoğun olduğu anlarda misafiri 3 saniyede yakalayabilmek için bu sistemi kuruyoruz."* |
 | **"Yapay zekâ yanlış fiyat verir mi, hata yapar mı?"** | *"Sistem deterministik koruma kapısına sahiptir. Tıpkı bir hesap makinesi gibi, yalnızca otelin belirlediği resmi fiyat tablosu ve kuralları üzerinden hesaplama yapar, asla kafasından fiyat uyduramaz."* |
 | **"Pazarlık isteyen veya şikâyeti olan olursa ne olacak?"** | *"Bot pazarlık yapmaz veya şikâyeti geçiştirmez. 'Yetkilimize iletiyorum' diyerek patronun veya müdürün telefonuna anında Telegram/WhatsApp bildirimi atar ve satışı size devreder."* |
+
